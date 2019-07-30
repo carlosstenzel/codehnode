@@ -1,0 +1,38 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js add babel/cli
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /var/www/codehnode/package.json: Unexpected token } in JSON at position 120
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:304:30)
+      at /usr/share/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "codehnode",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Carlos Stenzel",
+    "license": "MIT",
+  
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

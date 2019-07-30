@@ -1,0 +1,10 @@
+{
+  "name": "codehnode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Carlos Stenzel",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.5.5"
+  }
+}
