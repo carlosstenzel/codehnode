@@ -1,9 +1,15 @@
-const arr = [1, 3, 4, 5, 6, 8, 9];
+const usuario = {
+    nome: 'Carlos',
+    idade: '25',
+    endereco: {
+        cidade: 'Sao Joao',
+        estado: 'PR',
+    },
+};
 
-const newArr = arr.map(item => item * 2);
+const {nome, idade, endereco: { cidade } } = usuario;
 
-console.log(newArr);
+console.log(nome);
+console.log(idade);
+console.log(cidade);
 
-const teste = () => ({ nome: 'Carlos' });
-
-console.log(teste());
