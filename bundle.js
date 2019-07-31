@@ -9,3 +9,7 @@ var sum = arr.reduce(function (total, next) {
   return total + next;
 });
 console.log(sum);
+var filter = arr.filter(function (item) {
+  return item % 2 === 0;
+});
+console.log(filter);

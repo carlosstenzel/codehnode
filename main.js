@@ -11,3 +11,9 @@ const sum = arr.reduce(function(total, next) {
 });
 
 console.log(sum);
+
+const filter = arr.filter(function(item) {
+    return item % 2 === 0;
+});
+
+console.log(filter);
