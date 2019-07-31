@@ -4,3 +4,6 @@ const newArr = arr.map(item => item * 2);
 
 console.log(newArr);
 
+const teste = () => ({ nome: 'Carlos' });
+
+console.log(teste());
