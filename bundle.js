@@ -5,3 +5,7 @@ var newArr = arr.map(function (item, index) {
   return item * index;
 });
 console.log(newArr);
+var sum = arr.reduce(function (total, next) {
+  return total + next;
+});
+console.log(sum);
