@@ -1,14 +1,13 @@
+// REST
+
 const usuario = {
     nome: 'Carlos',
-    idade: '25',
-    endereco: {
-        cidade: 'Sao Joao',
-        estado: 'PR',
-    },
+    idade: 25,
+    empresa: 'CodeHamper'
 };
 
-function mostraNome({ nome, idade }) {
-    console.log(nome, idade);
-}
+//armazena o resto fora nome na variavel resto
+const { nome, ...resto } = usuario;
 
-mostraNome(usuario);
+console.log(nome);
+console.log(resto);
