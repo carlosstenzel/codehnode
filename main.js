@@ -9,5 +9,13 @@ const usuario = {
 //armazena o resto fora nome na variavel resto
 const { nome, ...resto } = usuario;
 
-console.log(nome);
-console.log(resto);
+//console.log(nome);
+//console.log(resto);
+
+
+// SPREAD
+
+const usuario2 = { ...usuario, nome: 'Ana Livia' };
+
+console.log(usuario2);
+
