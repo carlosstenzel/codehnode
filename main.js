@@ -17,5 +17,8 @@ const { nome, ...resto } = usuario;
 
 const usuario2 = { ...usuario, nome: 'Ana Livia' };
 
-console.log(usuario2);
+//console.log(usuario2);
 
+//template literals
+//usando craze 
+console.log(`Meu nome é  ${usuario.nome}`);

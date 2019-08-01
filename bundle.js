@@ -25,6 +25,9 @@ var nome = usuario.nome,
 
 var usuario2 = _objectSpread({}, usuario, {
   nome: 'Ana Livia'
-});
+}); //console.log(usuario2);
+//template literals
+//usando craze 
 
-console.log(usuario2);
+
+console.log("Meu nome \xE9  ".concat(usuario.nome));
