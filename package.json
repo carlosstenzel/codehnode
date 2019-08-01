@@ -4,13 +4,16 @@
   "main": "index.js",
   "author": "Carlos Stenzel",
   "license": "MIT",
-  "dependencies": {
+  "DevDependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
-    "@babel/preset-env": "^7.5.5"
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "8.0.0-beta.0",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6"
   },
   "scripts": {
-    "dev": "babel ./main.js -o ./bundle.js -w"
+    "dev": "webpack --mode=development -w"
   }
 }

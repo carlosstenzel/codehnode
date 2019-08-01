@@ -1,24 +1,3 @@
-// REST
+import { soma } from './funcoes.js';
 
-const usuario = {
-    nome: 'Carlos',
-    idade: 25,
-    empresa: 'CodeHamper'
-};
-
-//armazena o resto fora nome na variavel resto
-const { nome, ...resto } = usuario;
-
-//console.log(nome);
-//console.log(resto);
-
-
-// SPREAD
-
-const usuario2 = { ...usuario, nome: 'Ana Livia' };
-
-//console.log(usuario2);
-
-//template literals
-//usando craze 
-console.log(`Meu nome é  ${usuario.nome}`);
+console.log(soma(1, 2));
